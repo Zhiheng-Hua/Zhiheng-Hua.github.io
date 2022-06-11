@@ -41,7 +41,7 @@ button:hover {
   display: flex;
   align-self: center;
   padding: 10px;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bold;
   letter-spacing: 0.07em;
 }
@@ -110,6 +110,40 @@ main {
 .about-left {
   width: 65%;
   padding: 20px;
+}
+
+.about-left .major {
+  background-color: aquamarine;
+}
+
+.about-left .title {
+  background-color: blanchedalmond;
+}
+
+.about-left .skill {
+  background-color: lightpink;
+}
+
+.about-left .school {
+  background-color: orange;
+}
+
+.about-left .personality {
+  background-color: yellow;
+}
+
+.about-left strong {
+  font-size: large;
+}
+
+.about-left strong {
+  background-color: cyan;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.about-left div {
+  text-align: right;
 }
 
 .about-right {
